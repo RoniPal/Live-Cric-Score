@@ -115,7 +115,7 @@ try {
                 <img src="upcoming.svg" alt="loading">
                 <p id="upcoming">Upcoming</p>
 
-                <p class="match-no-u">${result.response.schedules[key].matchList[i].seriesList[j].date}<span>${result.response.schedules[key].matchList[i].seriesList[j].startDate}</span></p>
+                <p class="match-no-u">${result.response.schedules[key].matchList[i].seriesList[j].date}<span>&nbsp;&nbsp;${result.response.schedules[key].matchList[i].seriesList[j].startDate}</span></p>
 
                 </div>
 				`
