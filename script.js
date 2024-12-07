@@ -71,7 +71,7 @@ try {
 } catch (error) {
 	container.innerHTML = error
 }
-},4000)
+},3000)
 }
 //call live Score
 callLiveScore()
@@ -92,12 +92,7 @@ try {
 	const response = await fetch(url, options);
 	const result = await response.json();
 	//console.log(result);
-
-	let currentTime = new Date()
-	console.log(currentTime.getHours())
-	let calDay = 24 - currentTime.getHours()
-	console.log(calDay)
-
+	
 	let count = 0
 	let ihtml=""
 	
